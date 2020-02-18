@@ -1,0 +1,208 @@
+-webkit-::selection{
+    background: #ff8400;
+    color: #fff;
+    text-shadow: none;
+}
+-moz-::selection{
+    background: #ff8400;
+    color: #fff;
+    text-shadow: none;
+}
+::selection{
+    background: #ff8400;
+    color: #fff;
+    text-shadow: none;
+}
+
+.btn-primary, .custom-dropdown .dropdown-menu a:before{
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+
+/* Start Global Style */
+.body-container .overlay{
+	background:transparent;
+}
+.dashboard:hover, div.custom-dropdown:hover,.login .remember,
+.navbar .search-btn, .time-now i, .list-menu h3, 
+.list-menu .parent-title > span:first-child,
+.carousel-control.right, .carousel-control.left,
+.short-pref .flag i, .short-pref .pref-info h3 a,
+.short-pref .pref-info i, .flag i, .last-lessons strong,
+.com h2, .com .com-now h3, .info .info-body h2, .info h1,
+.lessons .back span, .titles .folder-file .grid .grid-icons i.active,
+.titles .folder-file .grid .back, .navbar .login-signup a,
+.com .com-header .com-n .name.admin{
+	color: #ff8400 !important;
+}
+.navbar .menu,
+div.custom-dropdown:before, .dashboard:before, .lower-nav .search,
+.index .bar-logo, .home-state .content:hover{
+	background: #ff8400;
+}
+.btn-primary:not(.login .btn-primary){
+	background: #ff8400;
+	border-color: #ff8400;
+}
+.btn-primary:hover:not(.login .btn-primary){
+	color: #ff8400;
+    background-color: #ffffff;
+    border: 1px solid #ff840052;
+}
+.alert-info{
+	background-color: #ff8400;
+	color: #FFF;
+}
+.form-control:focus{
+	border-color: #ff8400;
+	-webkit-box-shadow: inset 0 1px 1px rgba(255, 132, 0, 0.69), 0 0 8px rgba(255, 132, 0, 0.74);
+	-moz-box-shadow: inset 0 1px 1px rgba(255, 132, 0, 0.69), 0 0 8px rgba(255, 132, 0, 0.74);
+	box-shadow: inset 0 1px 1px rgba(255, 132, 0, 0.69), 0 0 8px rgba(255, 132, 0, 0.74);
+}
+/* End Global Style */
+
+
+/* Start Navbar Style */
+.navbar-inverse{
+	background: white;
+    box-shadow: 0 1px 4px #abababb5;
+}
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand{
+	background: #FFF;
+    text-shadow: 3px 3px 4px #f1f1f1;
+    color: #ff8400;
+}
+.custom-dropdown, .dashboard{
+	color: #333 !important;
+}
+.custom-dropdown .dropdown-menu:before{
+	border-color: transparent transparent #FFF transparent;
+}
+.custom-dropdown .dropdown-menu a{
+	color: #000;
+	border-bottom: 1px inset #e8e8e8;
+	position: relative;
+}
+.custom-dropdown .dropdown-menu a:hover{
+    color: #ff8400 !important;
+    background: #FFF;
+}
+.custom-dropdown .dropdown-menu a:before{
+	content: '';
+    width: 0;
+    height: 2px;
+    background: #ff8400;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.custom-dropdown .dropdown-menu a:hover:before{
+    width: 100%;
+}
+.lower-nav .search{
+	z-index: 100;
+}
+
+/* End Navbar Style */
+
+/* List Menu style */
+.list-menu{
+	background: #FFF;
+	border-left: 6px outset #ff8400;
+}
+.list-menu .personal > a div{
+	border-right: 3px solid #ff8400 !important;
+    border-bottom: 2px outset transparent;
+    background:#FFF !important;
+    color: #ff8400 !important;
+}
+.list-menu .personal > a div:hover{
+	border-right-width: 0 !important;
+    /*border-bottom: 2px solid #ff8400;*/
+}
+.list-menu .parent-title > span:first-child{
+	border-bottom: 2px solid #ff8400;
+}
+.list-menu .child-title{
+	background:#888888;
+	color: #FFF;
+	border-bottom: 1px solid transparent;
+}
+.list-menu .child-title:hover{
+	color: #ff8400;
+    background: #ffffff;
+    border-bottom: 1px solid #ff8400;
+}
+.list-menu .theme ul{
+	background: #cccccc;
+}
+.list-menu .theme ul li{
+    background: #888888;
+}
+.list-menu .theme ul li .dark i{
+	color: #000;
+}
+/* End Navbar Style */
+
+/* Start Indxe Page */
+.index .bar-word li{
+	color: #000;
+    font-size: 15px;
+}
+.last-lessons{
+	margin:0;
+}
+.home-state{
+	background: #FAFAFA;
+}
+.last-lessons h2 span:before, .last-lessons h2 span:after{
+	border: 2px solid #ff8400;
+}
+.lesson-info .body h3 a{
+	color: #545454;
+}
+.lesson-info .body h3 a:hover{
+	color: #000;
+}
+/* End Indxe Page */
+
+/* Start Footer Style */
+.footer{
+	background: #FAFAFA;
+    color: #616161;
+}
+/* End Footer Style */
+
+/* Start Titles Page */
+.titles .header, .lessons .header{
+    -webkit-box-shadow: 0 4px 9px #c1c1c5;
+    -moz-box-shadow: 0 4px 9px #c1c1c5;
+    box-shadow: 0 4px 9px #c1c1c5;
+}
+.titles .header .title-overlay,
+.lessons .header .lesson-overlay{
+    background: rgba(209, 209, 209, 0.9098039215686274);
+}
+.titles .header h1, .lessons .header h1{
+	color: #ffffff;
+    text-shadow: 1px 1px 1px #ff8400;
+}
+.lessons .header .under-name > span a, 
+.lessons .header .under-name > span{
+	color: #a9a9a9;
+}
+.titles .folder-file .folder:hover,
+.titles .folder-file .file:hover{
+	background: rgba(255, 132, 0, 0.22);
+}
+.titles .folder-file{
+	background-color: #FFF;
+}
+/* End Titles Page */
+
+/* Start Footer Page */
+
+/* End Footer Page */

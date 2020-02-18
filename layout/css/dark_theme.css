@@ -1,0 +1,253 @@
+ Start Global Style */
+-webkit-::selection{
+    background: #19CF86;
+    color: #fff;
+    text-shadow: none;
+}
+-moz-::selection{
+    background: #19CF86;
+    color: #fff;
+    text-shadow: none;
+}
+::selection{
+    background: #19CF86;
+    color: #fff;
+    text-shadow: none;
+}
+
+body,.body-container,
+.login input:not([type=submit]), .signup input:not([type=submit]){
+	background-color: #141d26 !important;
+}
+.navbar>.container .navbar-brand, .login .remember,
+.navbar>.container-fluid .navbar-brand,
+.list-menu .personal > a div, .flag i,
+.dashboard:hover, div.custom-dropdown:hover,
+.navbar .search-btn:hover, .list-menu h3,
+.list-menu .parent-title > span:first-child,
+.last-lessons h2 span strong, .lesson-info .body h3 a,
+.short-pref .pref-info h3 a, 
+.titles .header h1, .lessons .header h1, 
+.titles .folder-file .grid .grid-icons i.active, .com h2,
+.com .com-body .com-header .name, .com .com-now h3,
+.carousel-control.right, .carousel-control.left, .upper-nav .upper-con .fayoum-t,
+.custom-dropdown .dropdown-menu a, .custom-dropdown .dropdown-menu a:hover,
+.index .bar-logo, .alert-info, .info .info-body h2, .footer a,
+.pro .pro-avatar .avatar-info > ul li:first-of-type,
+.pro-body .info .b-info{
+	color: #19CF86 !important;
+}
+.custom-dropdown, .dashboard, 
+.navbar .search-btn, .list-menu .child-title,
+.lower-nav, .lower-nav a, .home-state,
+.last-lessons h2 span, .lesson-info .body a,
+.lesson-info .body .date, .short-pref, 
+.titles .folder-file .icon-name, 
+.titles .folder-file .grid .back,
+.titles .folder-file .grid .back:hover,
+.lessons .back span, .com .com-body .com-header .date,
+.com .com-body .com-footer .under-com a, .info .info-body{
+	color: #8899a6 !important;
+}
+.navbar .menu span,
+div.custom-dropdown:before, .dashboard:before,
+.navbar .menu span:before, .navbar .menu span:after,
+.custom-input .style{
+	background-color: #19CF86 !important;
+}
+.titles .folder-file .grid, .btn-primary,
+.navbar-inverse, .index .bar-logo, .home-state .content,
+.last-lessons .lesson-info,
+.lessons .back, .com, .com .com-body .com-footer p,
+.com .add-reply, .info .info-body, .info .info-body h2,
+.navbar .menu span.disable, .pro-body .info,
+.pro-body .info .b-info{
+	background-color: #243447 !important;
+}
+.titles .folder-file, .lessons .files-con,
+.com .com-body .com-container,
+.com .add-reply form textarea, .com .com-now,
+.no-comments{
+	background-color: #071625;
+}
+
+.btn-primary:not(.login .btn-primary){
+	color: #19CF86 !important;
+    border-color: #243447;
+}
+.btn-primary:hover:not(.login .btn-primary){
+	color: #19CF86 !important;
+    background-color: #141d26;
+    border: 1px solid #141d26;
+}
+.com .com-header .com-n .name.admin{
+    color: #ff8100 !important;
+}
+/* End Global Style */
+
+/* Start Navbar Style */
+.upper-nav{
+	background: #141d26;
+    color: #a2bbce;
+}
+
+.navbar-inverse{
+	border-color: #243447;
+}
+.custom-dropdown .dropdown-menu a{
+    background: #1b2836;
+}
+.custom-dropdown .dropdown-menu:before{
+	border-color: transparent transparent #1b2836 transparent;
+}
+.custom-dropdown .dropdown-menu a:hover{
+    background-color: #141d26;
+}
+
+
+/* End Navbar Style */
+
+/* Start List Menu Style */
+.list-menu{
+	background-color: #141d26;
+}
+.list-menu .child-title{
+    background-color: #1b2836;
+}
+.list-menu .child-title:hover{
+	color: #1acf77;
+    background-color: #1e334a;
+}
+.list-menu .theme ul{
+	background-color: #1e334a;
+}
+.list-menu .theme ul li{
+    background: #141d26;
+}
+/* End List Menu Style */
+
+/* Start Index Page */
+.lower-nav .search{
+	background-color: #35485a;
+}
+.lower-nav{
+	background: #1c2935;
+}
+.home-state{
+	background-color: #141d26;
+}
+.last-lessons{
+	background-color: #1b2633;
+}
+.flag:before{
+	border-color: transparent transparent #1b2633 transparent
+}
+.last-lessons h2 span:before, .last-lessons h2 span:after{
+	border: 2px solid #19CF86;
+}
+.last-lessons .lesson-info{
+	border-top-color: #243447;
+	box-shadow: none;
+}
+.last-lessons .header{
+	background-color: #1b2633;
+	box-shadow: none;
+}
+.short-pref{
+	background-color: #141d26;
+}
+.short-pref .flag:before{
+	border-color: transparent transparent #141d26 transparent
+}
+.short-pref .pref-info .bio{
+
+}
+.footer{
+	background-color: #1b2633;
+}
+.last-lessons .lesson-info .body{
+	border:0 !important;
+}
+/* End Index Page 
+
+/* Start Titles Page */
+
+.com .add-reply form textarea,
+.titles .folder-file, .lessons .files-con,
+.com .com-now textarea{
+	box-shadow: none;
+	border: 0;
+}
+.titles .header .title-overlay,
+.lessons .header .lesson-overlay{
+	background-color: rgba(36, 52, 71, 0.9098039215686274);
+}
+
+.titles .folder-file .grid .grid-icons i{
+	color: #071625;
+}
+.lessons .header .under-name > span{
+	background-color: #141d26;
+}
+.lessons .header .under-name > span a, 
+.lessons .header .under-name > span{
+	color: #6f99a6;
+}
+.alert-info{
+    background-color: #0c1e33;
+    border-color: #0c1e33;
+}
+
+/* End Titles Page */
+
+
+/* Start Lessons Page */
+.com .com-body .com-footer p{
+	color: white;
+}
+.com .add-reply form textarea{
+    border: 0;
+    box-shadow: none;
+}
+.com .com-now h3{
+	background-color: #071625;
+}
+.com .com-now textarea{
+	background: #243447;
+	color: #FFF;
+}
+
+/* End Lessons Page */
+
+/* Start settings page */
+.info .info-body{
+	-webkit-box-shadow: 0 10px 15px #243447;
+	-moz-box-shadow: 0 10px 15px #243447;
+	box-shadow: 0 10px 15px #243447;
+}
+.info .info-body h2{
+	-webkit-box-shadow: 1px 4px 5px #141d26;
+	-moz-box-shadow: 1px 4px 5px #141d26;
+	box-shadow: 1px 4px 5px #141d26;
+}
+.custom-input input, .custom-input textarea{
+	background: #141d26;
+    color: #FFF;
+}
+/* End settings page */
+
+/* Start Profile Page */
+.pro .pro-avatar .avatar img{
+	border-color: #141d26;
+}
+.pro .pro-avatar .avatar-info{
+	background-color: #243447;
+}
+.pro-body .info > div > div:nth-child(odd){
+	background: #141d26;
+    color: #bfbfbf;
+}
+.pro-body .info > div > div:nth-child(even){
+	color: #00bb70;
+}
+/* End Profile Page */

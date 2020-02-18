@@ -1,0 +1,91 @@
+-webkit-::selection{
+    background: #f03b43;
+    color: #fff;
+    text-shadow: none;
+}
+-moz-::selection{
+    background: #f03b43;
+    color: #fff;
+    text-shadow: none;
+}
+::selection{
+    background: #f03b43;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* Global Colors */
+.flag, .lesson-info .body i,
+.lesson-info .body  .user a,
+.lessons{
+    color: #283f58;
+}
+/* Global Backgrounds */
+.list-menu, .list-menu .parent-title,
+.navbar-inverse, .index, .custom-dropdown .dropdown-menu,
+.index .news-bar, .index .def-bar, .index .bar-logo{
+    background: #283f58;
+}
+.com .com-header .com-n .name.admin{
+    color: #ea0d0d;
+}
+
+/* Start Navbar Style */
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand,
+.navbar .menu{
+    background-color: #f03b43;
+}
+.navbar .search-btn:hover{
+    color: #FFF !important;
+}
+.navbar .search-btn.active{
+    color: #FFF !important;
+    /*background: #d9edf7;*/
+    background: #f03b43;
+}
+/* End Navbar Style */
+
+/* Start List Menu Style */
+.list-menu h3{
+    color: #f03b43;
+}
+.list-menu .theme ul{
+    background-color: #1e334a;
+}
+.list-menu .theme ul li{
+    background: #122233;
+}
+/* End List Menu Style */
+
+/* Start Titles Page */
+.titles .header, .lessons .header{
+    -webkit-box-shadow: 0 4px 9px #5294e2;
+    -moz-box-shadow: 0 4px 9px #5294e2;
+    box-shadow: 0 4px 9px #5294e2;
+}
+.titles .header .title-overlay,
+.lessons .header .lesson-overlay{
+    background: rgba(82, 148, 226, 0.8509803921568627);
+}
+.titles .folder-file{
+    padding: 20px;
+    /*text-align: center;*/
+    background: #FFF;
+    margin: 0 0 150px 0;
+    border: 1px solid rgba(175, 175, 175, 0.4);
+
+    -webkit-box-shadow: 0 0 20px rgba(66, 66, 66, 0.4);
+    -moz-box-shadow: 0 0 20px rgba(66, 66, 66, 0.4);
+    box-shadow: 0 0 20px rgba(66, 66, 66, 0.4);
+}
+/* End Titles Page */
+
+/* Start Footer Style */
+.footer{
+    background: #1d2d40;
+}
+.footer a{
+    color: #57ea27;
+}
+/* End Footer Style */
