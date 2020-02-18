@@ -6,6 +6,11 @@
 * exams
 * and more
 
+## Deli-Physics Home Page
+
+
+<img src="./site_images/delip-home.png" >
+
 ## Programming Languages
 * PHP
 * MySQL
